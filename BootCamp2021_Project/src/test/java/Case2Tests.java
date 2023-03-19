@@ -21,7 +21,7 @@ public class Case2Tests {
     @Test
     @Description("generate token with password")
     public void generateTokenSetOnlyPasswordTest() throws JsonProcessingException {
-        Response response = step.setGenerateTokenOnlyPassword(ConstantData.password, StatusCode.equals(HttpStatus.SC_BAD_REQUEST));
+        Response response = step.setGenerateTokenOnlyPassword(ConstantData.passwordForCase2, StatusCode.equals(HttpStatus.SC_BAD_REQUEST));
         step.validateGenerateTokenMessage(response);
     }
 
@@ -42,7 +42,7 @@ public class Case2Tests {
     @Test
     @Description("generate token without username and password")
     public void generateTokenWithInvalidCredentialsTest() throws JsonProcessingException {
-        Response response = step.generateTokenWithInvalidCredentials(ConstantData.userName, ConstantData.password, StatusCode.equals(HttpStatus.SC_OK));
+        Response response = step.generateTokenWithInvalidCredentials(ConstantData.userName, ConstantData.passwordForCase2, StatusCode.equals(HttpStatus.SC_OK));
         step.validateGenerateTokenMessageWithInvalidCredentials(response);
     }
 }

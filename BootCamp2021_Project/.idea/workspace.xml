@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Backend/Data/ConstantData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Backend/Models/RequestModel/GenerateTokenRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Backend/Models/ResponseModel/ErrorGenerateTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Backend/Models/ResponseModel/GenerateTokenResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case2ApiSteps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Case2Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Data/test" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Models/RequestModel/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Models/ResponseModel/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Steps/test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Utils/Endpoints.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Utils/Endpoints.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Utils/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Utils/StatusCodeUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Utils/test" beforeDir="false" />
-    </list>
+    <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

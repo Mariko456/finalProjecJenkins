@@ -7,7 +7,7 @@ public class ConstantData {
     public static final String
             userName = RandomStringUtils.random(10, true, false),
 
-            password = "Sopoopo13!",
+            passwordForCase2 = "Sopoopo13!",
 
             generateTokenApiUserAndPasswordRequiredMessage = "UserName and Password required.",
 
