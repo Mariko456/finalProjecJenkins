@@ -1,13 +1,8 @@
 package Frontend.Steps;
-
 import Frontend.Pages.ProfilePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
-
-
-
-
 import static com.codeborne.selenide.Selenide.switchTo;
 
 public class ProfilePageSteps {

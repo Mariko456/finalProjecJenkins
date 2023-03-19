@@ -2,7 +2,6 @@
 import Backend.Data.ConstantData;
 import Frontend.Data.FrontEndConstants;
 import Frontend.Steps.ProfilePageSteps;
-import com.fasterxml.jackson.core.JsonProcessingException;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
 import io.qameta.allure.Feature;
@@ -12,11 +11,7 @@ import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
 import Backend.Utils.StatusCodeUtil;
 import Frontend.Steps.HomePageSteps;
-
-
-import Backend.Steps.APISteps.Case1ApiSsteps;
-
-
+import Backend.Steps.APISteps.Case1ApiSteps;
 import static com.codeborne.selenide.Selenide.open;
 
 @Epic("User register and login scenarios")
@@ -25,15 +20,15 @@ import static com.codeborne.selenide.Selenide.open;
         "Login with deleted user and validate error text, Authorize with deleted user credentials, validate message")
 public class Case1Test extends BaseTest {
 
-    Case1ApiSsteps step = new Case1ApiSsteps();
+    Case1ApiSteps step = new Case1ApiSteps();
     HomePageSteps homePageSteps = new HomePageSteps();
     ProfilePageSteps profilePageSteps = new ProfilePageSteps();
 
 
     @Test(priority = 1)
     @Description("Create new user")
-    public void createUserTest() throws JsonProcessingException {
-        Response response = step.createUserStep(Backend.Data.ConstantData.userName, ConstantData.passwordForCase1, StatusCodeUtil.StatusCode.equals(HttpStatus.SC_CREATED));
+    public void createUserTest() {
+        step.createUserStep(Backend.Data.ConstantData.userName, ConstantData.passwordForCase1, StatusCodeUtil.StatusCode.equals(HttpStatus.SC_CREATED));
     }
 
 
@@ -68,7 +63,7 @@ public class Case1Test extends BaseTest {
 
     @Test(priority = 5)
     @Description("Authorize with deleted user credentials")
-    public void authorizeWithDeletedCredentials() throws JsonProcessingException {
+    public void authorizeWithDeletedCredentials()  {
         Response response = step.Authorize(ConstantData.userName, ConstantData.passwordForCase1, StatusCodeUtil.StatusCode.equals(HttpStatus.SC_NOT_FOUND));
         step.validateAuthorizeMessage(response);
     }

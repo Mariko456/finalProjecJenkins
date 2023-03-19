@@ -1,11 +1,7 @@
 package Frontend.Steps;
-
 import Frontend.Pages.HomePage;
 import com.codeborne.selenide.Condition;
 import io.qameta.allure.Step;
-
-
-
 
 public class HomePageSteps {
     HomePage homePage = new HomePage();

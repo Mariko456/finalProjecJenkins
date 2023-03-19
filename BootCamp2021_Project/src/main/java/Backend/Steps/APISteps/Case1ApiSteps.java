@@ -1,6 +1,5 @@
 package Backend.Steps.APISteps;
 
-
 import Backend.Models.RequestModel.AuthorizationRequest;
 import Backend.Models.RequestModel.CreateUserRequest;
 import Backend.Models.ResponseModel.ErrorAuthorizeResponse;
@@ -16,9 +15,7 @@ import org.testng.Assert;
 import Backend.Data.ConstantData;
 
 
-
-
-public class Case1ApiSsteps {
+public class Case1ApiSteps {
     ObjectMapper mapper = new ObjectMapper();
 
     @Step("Create user")
