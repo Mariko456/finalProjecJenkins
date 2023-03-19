@@ -1,6 +1,9 @@
-package java.Backend.Steps.APISteps;
+package Backend.Steps.APISteps;
 
 
+import Backend.Models.RequestModel.AuthorizationRequest;
+import Backend.Models.RequestModel.CreateUserRequest;
+import Backend.Models.ResponseModel.ErrorAuthorizeResponse;
 import Backend.Utils.Endpoints;
 import Backend.Utils.StatusCodeUtil.StatusCode;
 import com.fasterxml.jackson.core.JsonProcessingException;
@@ -12,9 +15,7 @@ import io.restassured.response.Response;
 import org.testng.Assert;
 import Backend.Data.ConstantData;
 
-import java.Backend.Models.RequestModel.AuthorizationRequest;
-import java.Backend.Models.RequestModel.CreateUserRequest;
-import java.Backend.Models.ResponseModel.ErrorAuthorizeResponse;
+
 
 
 public class Case1ApiSsteps {

@@ -1,10 +1,12 @@
-package java.Frontend.Steps;
+package Frontend.Steps;
 
+import Frontend.Pages.ProfilePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.Alert;
 import org.testng.Assert;
 
-import java.Frontend.Pages.ProfilePage;
+
+
 
 import static com.codeborne.selenide.Selenide.switchTo;
 

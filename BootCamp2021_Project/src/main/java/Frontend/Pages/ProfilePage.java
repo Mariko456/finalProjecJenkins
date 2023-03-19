@@ -1,4 +1,4 @@
-package java.Frontend.Pages;
+package Frontend.Pages;
 
 import com.codeborne.selenide.SelenideElement;
 

@@ -1,4 +1,3 @@
-package java;
 
 import com.codeborne.selenide.Browsers;
 import com.codeborne.selenide.Configuration;

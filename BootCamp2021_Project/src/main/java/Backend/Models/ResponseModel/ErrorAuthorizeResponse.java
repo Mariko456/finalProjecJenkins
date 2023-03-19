@@ -1,4 +1,4 @@
-package java.Backend.Models.ResponseModel;
+package Backend.Models.ResponseModel;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

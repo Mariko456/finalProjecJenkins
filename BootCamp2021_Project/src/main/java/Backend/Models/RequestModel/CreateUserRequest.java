@@ -1,4 +1,4 @@
-package java.Backend.Models.RequestModel;
+package Backend.Models.RequestModel;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

@@ -1,6 +1,7 @@
-package java;
 
 import Backend.Data.ConstantData;
+import Frontend.Data.FrontEndConstants;
+import Frontend.Steps.ProfilePageSteps;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import io.qameta.allure.Description;
 import io.qameta.allure.Epic;
@@ -10,17 +11,19 @@ import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.testng.annotations.Test;
 import Backend.Utils.StatusCodeUtil;
-import java.Backend.Steps.APISteps.Case1ApiSsteps;
-import java.Frontend.Data.FrontEndConstants;
-import java.Frontend.Steps.HomePageSteps;
-import java.Frontend.Steps.ProfilePageSteps;
+import Frontend.Steps.HomePageSteps;
+
+
+import Backend.Steps.APISteps.Case1ApiSsteps;
+
+
 import static com.codeborne.selenide.Selenide.open;
 
 @Epic("User register and login scenarios")
 @Feature("Register new user, login with new user credentials, login and authorize with deleted credentials")
 @Story("Create new user, Login with newly added user, Delete user account and validate popup message, " +
         "Login with deleted user and validate error text, Authorize with deleted user credentials, validate message")
-public class CaseOneTest extends BaseTest {
+public class Case1Test extends BaseTest {
 
     Case1ApiSsteps step = new Case1ApiSsteps();
     HomePageSteps homePageSteps = new HomePageSteps();
