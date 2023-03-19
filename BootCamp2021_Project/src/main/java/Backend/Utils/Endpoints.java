@@ -1,4 +1,4 @@
-package java.Backend.Utils;
+package Backend.Utils;
 
 public class Endpoints {
 
@@ -6,7 +6,7 @@ public class Endpoints {
 
     public static class Accounts {
 
-        public static final String endpointAccounts = BOOK_STORE_API + "/AccountV1/";
+        public static final String endpointAccounts = BOOK_STORE_API + "Account/v1/";
 
         public static String authorized = endpointAccounts + "Authorized";
 
@@ -16,7 +16,7 @@ public class Endpoints {
     }
 
     public static class Books {
-        public static final String endPointBooks = BOOK_STORE_API + "/BookStore/v1/";
+        public static final String endPointBooks = BOOK_STORE_API + "BookStore/v1/";
 
         public static String books = endPointBooks + "Books";
     }

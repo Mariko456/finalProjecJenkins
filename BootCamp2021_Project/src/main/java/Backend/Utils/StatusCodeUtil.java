@@ -1,9 +1,9 @@
-package java.Backend.Utils;
+package Backend.Utils;
 
 import io.restassured.response.Response;
 import org.testng.Assert;
 
-public class Utils {
+public class StatusCodeUtil {
 
     public static class StatusCode{
 
