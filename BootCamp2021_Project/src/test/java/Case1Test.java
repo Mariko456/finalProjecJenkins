@@ -35,7 +35,7 @@ public class Case1Test extends BaseTest {
     @Test(priority = 2)
     @Description("Login with newly added user (successful scenario)")
     public void loginWithNewlyAddedUser() {
-        open("https://demoqa.com/login");
+        open("/login");
         homePageSteps
                 .setUserName(ConstantData.userName)
                 .setPassword(ConstantData.passwordForCase1)
