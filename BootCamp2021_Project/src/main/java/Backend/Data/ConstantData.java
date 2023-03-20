@@ -1,5 +1,4 @@
 package Backend.Data;
-
 import org.apache.commons.lang3.RandomStringUtils;
 
 public class ConstantData {
@@ -15,5 +14,9 @@ public class ConstantData {
 
             passwordForCase1 = "Maiko123!",
 
-            authorizedApiUserNotFound = "User not found!";
+            authorizedApiUserNotFound = "User not found!",
+
+            publisherName = "O'Reilly Media",
+
+            lastBookTitle = "Understanding ECMAScript 6";
 }
