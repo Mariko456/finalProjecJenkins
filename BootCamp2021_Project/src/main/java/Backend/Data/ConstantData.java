@@ -15,5 +15,7 @@ public class ConstantData {
 
             passwordForCase1 = "Maiko123!",
 
-            authorizedApiUserNotFound = "User not found!";
+            authorizedApiUserNotFound = "User not found!",
+                    publisherName = "O'Reilly Media",
+                    lastElementTitle = "Understanding ECMAScript 6";
 }

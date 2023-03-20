@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="" />
+    <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Data/ConstantData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Data/ConstantData.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,13 +27,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2NBFepVim7pJ9NgBMN7vGfqQDq2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,10 +36,11 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/New folder/Bootcamp6---Team3"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.Case3Tests.booksListSizeAndLastElementTitle">
     <configuration name="Case2Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-basics4" />
       <option name="PACKAGE_NAME" value="" />
@@ -54,8 +52,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Case3Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCamp2021_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Case3Tests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Case3Tests.booksListSizeAndLastElementTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="BootCamp2021_Project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Case3Tests" />
+      <option name="METHOD_NAME" value="booksListSizeAndLastElementTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Case3Tests.booksListSizeAndLastElementTitle" />
+        <item itemvalue="TestNG.Case3Tests" />
         <item itemvalue="TestNG.Case2Tests" />
       </list>
     </recent_temporary>
@@ -70,5 +93,16 @@
       <updated>1679129669290</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
