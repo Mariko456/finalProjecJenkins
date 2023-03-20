@@ -11,5 +11,9 @@ public class ConstantData {
 
             generateTokenApiUserAndPasswordRequiredMessage = "UserName and Password required.",
 
-            generateTokenResponseCodeMessage = "1200";
+            generateTokenResponseCodeMessage = "1200",
+
+            passwordForCase1 = "Maiko123!",
+
+            authorizedApiUserNotFound = "User not found!";
 }
