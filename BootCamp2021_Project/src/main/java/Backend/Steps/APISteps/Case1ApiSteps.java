@@ -25,7 +25,7 @@ public class Case1ApiSteps {
         try {
             body = mapper.writeValueAsString(createUserRequest);
         } catch (JsonProcessingException e) {
-            throw new RuntimeException(e);
+            throw new RuntimeException();
         }
         Response response = RestAssured.given()
                 .filter(new AllureRestAssured())

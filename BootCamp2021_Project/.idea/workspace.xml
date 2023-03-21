@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Data/ConstantData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Data/ConstantData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case1ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case1ApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case3ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case3ApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/Steps/Case3UiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/Steps/Case3UiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Backend/Data/ConstantData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Backend/Data/ConstantData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Backend/Models/RequestModel/GenerateTokenRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Backend/Models/RequestModel/GenerateTokenRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Backend/Models/ResponseModel/GenerateTokenResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Backend/Models/ResponseModel/GenerateTokenResponse.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,10 +42,21 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/user/Desktop/New folder/Bootcamp6---Team3"
+    "last_opened_file_path": "C:/Users/bulig/Workspaces/Project2"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Case3Tests.booksListSizeAndLastElementTitle">
+  <component name="RunManager" selected="TestNG.Case3Tests (1)">
+    <configuration name="Case1Test" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-basics4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Case1Test" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Case2Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="restAssured-basics4" />
       <option name="PACKAGE_NAME" value="" />
@@ -52,11 +68,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Case3Tests" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="BootCamp2021_Project" />
+    <configuration name="Case3Tests (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-basics4" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Case3Tests" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Case3Tests.booksListSizeAndLastBookTitle" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="restAssured-basics4" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Case3Tests" />
+      <option name="METHOD_NAME" value="booksListSizeAndLastBookTitle" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -77,9 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Case3Tests.booksListSizeAndLastElementTitle" />
-        <item itemvalue="TestNG.Case3Tests" />
+        <item itemvalue="TestNG.Case3Tests (1)" />
         <item itemvalue="TestNG.Case2Tests" />
+        <item itemvalue="TestNG.Case1Test" />
+        <item itemvalue="TestNG.Case3Tests.booksListSizeAndLastBookTitle" />
+        <item itemvalue="TestNG.Case3Tests.booksListSizeAndLastElementTitle" />
       </list>
     </recent_temporary>
   </component>

@@ -27,6 +27,7 @@ public class Case3UiSteps {
         return  booksHomePage.booksReturnedList.size();
 
     }
+
     @Step("Validate that count of books with publisher 'O'Reilly Media' is equals to returned list size in UI")
     public void validateReturnedBooksListSize(List books) {
 
@@ -39,6 +40,7 @@ public class Case3UiSteps {
         }
         Assert.assertEquals(count, returnedBooksListSize());
     }
+
     @Step("Validate that book with title 'Understanding ECMAScript 6' is the last element in UI")
     public void validateLastBookTitleUI() {
 
