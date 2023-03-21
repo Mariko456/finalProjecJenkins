@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case1ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case1ApiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case3ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Backend/Steps/APISteps/Case3ApiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frontend/Steps/Case3UiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Frontend/Steps/Case3UiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Backend/Data/ConstantData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Backend/Data/ConstantData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Backend/Models/RequestModel/GenerateTokenRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Backend/Models/RequestModel/GenerateTokenRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Backend/Models/ResponseModel/GenerateTokenResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Backend/Models/ResponseModel/GenerateTokenResponse.class" afterDir="false" />
-    </list>
+    <list default="true" id="ab83377c-5036-4ed7-96f6-cfc26634e17c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
