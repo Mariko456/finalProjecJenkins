@@ -6,6 +6,8 @@ import io.qameta.allure.Step;
 import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 import java.util.List;
+
+import static Backend.Data.ConstantData.publisherName;
 import static io.restassured.RestAssured.given;
 
 public class Case3ApiSteps {
@@ -19,6 +21,7 @@ public class Case3ApiSteps {
                 .jsonPath();
 
     }
+
 
     @Step("Validate that book with title 'Understanding ECMAScript 6' is the last element in API")
     public void validateLastBookTitleAPI(List<String> booksTitle) {
