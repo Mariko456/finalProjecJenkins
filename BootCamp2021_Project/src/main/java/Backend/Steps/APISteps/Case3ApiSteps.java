@@ -22,7 +22,6 @@ public class Case3ApiSteps {
 
     }
 
-
     @Step("Validate that book with title 'Understanding ECMAScript 6' is the last element in API")
     public void validateLastBookTitleAPI(List<String> booksTitle) {
         String lastBookTitle = booksTitle.get(booksTitle.size()-1);
